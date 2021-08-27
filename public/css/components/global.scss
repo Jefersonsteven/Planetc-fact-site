@@ -1,0 +1,54 @@
+// Colors basics
+$color_light: #FFFFFF;
+$color_dark: #070724;
+$color_dark_light: #38384F;
+$color_light_dark: #F2F2F2;
+// Colors for the theme
+$color-1: #419EBB;
+$color-2: #EDA249;
+$color-3: #6f2ed6;
+$color-4: #D14C32;
+$color-5: #D83A34;
+$color-6: #CD5120;
+$color-7: #1ec2a4;
+$color-8: #2d68f0;
+// Fonts
+$font-title: 'Open Sans', sans-serif;
+$font-text: 'Open Sans', sans-serif;
+
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: $color_light;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-size: 1.6rem;
+    background-color:  $color_dark;
+    color: $color_light;
+}
