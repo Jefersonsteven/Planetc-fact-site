@@ -1,92 +1,62 @@
-# Frontend Mentor - Planets fact site
+# Frontend Mentor - Sitio de hechos de planetas
 
-![Design preview for the Planets fact site coding challenge](./preview.jpg)
+! [Vista previa del diseño para el desafío de codificación del sitio de hechos de Planetas] (./ preview.jpg)
 
-## Welcome! 👋
+## ¡Bienvenido! 👋
 
-Thanks for purchasing this premium Frontend Mentor coding challenge.
+Gracias por comprar este desafío de codificación de Frontend Mentor premium.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
+Los desafíos de [Frontend Mentor] (https://www.frontendmentor.io) lo ayudan a mejorar sus habilidades de codificación mediante la creación de proyectos realistas. Estos desafíos premium son piezas de portafolio perfectas, así que siéntete libre de usar lo que creas en tu portafolio para mostrárselo a otros.
 
-**To do this challenge, you need a good understanding of HTML, CSS, and JavaScript.**
+** Para hacer este desafío, necesita un buen conocimiento de HTML, CSS y JavaScript. **
 
-## The challenge
+## El reto
 
-Your challenge is to build out this 8-page planets fact site and get it looking as close to the design as possible.
+Su desafío es construir este sitio de datos de planetas de 8 páginas y lograr que se vea lo más cerca posible del diseño.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 
-If you choose to use a JS-heavy approach, we provide a local `data.json` file for the planets. This means you'll be able to pull the data from there instead of using the separate `.html` files.
+Si eliges utilizar un enfoque con mucho JS, proporcionamos un archivo local `data.json` para los planetas. Esto significa que podrá extraer los datos de allí en lugar de utilizar los archivos `.html` separados.
 
-Your users should be able to:
+Sus usuarios deberían poder:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
+- Ver el diseño óptimo para la aplicación según el tamaño de la pantalla de su dispositivo
+- Ver estados de desplazamiento para todos los elementos interactivos en la página
+- Ver la página de cada planeta y alternar entre "Descripción general", "Estructura interna" y "Geología de superficie"
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+¿Quieres apoyo en el desafío? [Únase a nuestra comunidad de Slack] (https://www.frontendmentor.io/slack) y haga preguntas en el canal ** # ayuda **.
 
-## Where to find everything
+## Dónde encontrar todo
 
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
+Su tarea es construir el proyecto con el archivo de diseño proporcionado. Proporcionamos versiones de Sketch y Figma del diseño, para que pueda elegir qué herramienta prefiere usar. Puede descargar el archivo de diseño en la plataforma. ** Por favor, asegúrese de no compartirlos con nadie más. ** La descarga del diseño también viene con un archivo `README.md` para ayudarlo a configurar.
 
-All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images are reusable at multiple screen sizes. So if you don't see an image in a specific folder, it will typically be in another folder for that page.
+Todos los recursos necesarios para este proyecto se encuentran en la carpeta `/ assets`. Los activos ya están exportados para el tamaño de pantalla correcto y optimizados. Algunas imágenes se pueden reutilizar en varios tamaños de pantalla. Entonces, si no ve una imagen en una carpeta específica, normalmente estará en otra carpeta para esa página.
 
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project.
+El sistema de diseño en el archivo de diseño le dará más información sobre los distintos colores, fuentes y estilos utilizados en este proyecto.
 
-## Building your project
+## Construyendo tu proyecto
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+No dude en utilizar cualquier flujo de trabajo con el que se sienta cómodo. A continuación se muestra un proceso sugerido, pero no cree que deba seguir estos pasos:
 
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/). **⚠️ IMPORTANT ⚠️: There are already a couple of `.gitignore` files in this project. Please do not remove them or change the content of the files. If you create a brand new project, please use the `.gitignore` files provided in your new codebase. This is to avoid the accidental upload of the design files to GitHub. With these premium challenges, please be sure not to share the design files in your GitHub repo. Thanks!**
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+1. Separe el "código de inicio" del resto de este proyecto y cámbiele el nombre a algo significativo para usted. Inicialice la base de código como un repositorio público en [GitHub] (https://github.com/). La creación de un repositorio hará que sea más fácil compartir su código con la comunidad si necesita ayuda. Si no está seguro de cómo hacer esto, [lea este recurso Try Git] (https://try.github.io/). ** ⚠️ IMPORTANTE ⚠️: Ya hay un par de archivos `.gitignore` en este proyecto. No los elimine ni cambie el contenido de los archivos. Si crea un proyecto nuevo, utilice los archivos `.gitignore` proporcionados en su nueva base de código. Esto es para evitar la carga accidental de los archivos de diseño en GitHub. Con estos desafíos premium, asegúrese de no compartir los archivos de diseño en su repositorio de GitHub. ¡Gracias! **
+2. Configure su repositorio para publicar su código en una dirección web. Esto también será útil si necesita ayuda durante un desafío, ya que puede compartir la URL de su proyecto con la URL de su repositorio. Hay varias formas de hacerlo y a continuación ofrecemos algunas recomendaciones.
+3. Revise los diseños para comenzar a planificar cómo abordará el proyecto. Este paso es crucial para ayudarlo a pensar en el futuro para que las clases de CSS creen estilos reutilizables.
+4. Antes de agregar cualquier estilo, estructure su contenido con HTML. Escribir su HTML primero puede ayudarlo a enfocar su atención en la creación de contenido bien estructurado.
+5. Escriba los estilos base para su proyecto, incluidos los estilos de contenido general, como `font-family` y` font-size`.
+6. Comience a agregar estilos en la parte superior de la página y continúe hacia abajo. Solo pase a la siguiente sección una vez que esté satisfecho de haber completado el área en la que está trabajando.
 
-## Deploying your project
+## Implementando tu proyecto
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+Como se mencionó anteriormente, hay muchas formas de alojar su proyecto de forma gratuita. Nuestros anfitriones recomendados son:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- [Páginas de GitHub] (https://pages.github.com/)
+- [Vercel] (https://vercel.com/)
+- [Netlify] (https://www.netlify.com/)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+Puede alojar su sitio utilizando una de estas soluciones o cualquiera de nuestros otros proveedores de confianza. [Lea más sobre nuestros hosts recomendados y confiables] (https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
-## Create a custom `README.md`
+## Crea un `README.md` personalizado
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+Recomendamos encarecidamente sobrescribir este `README.md` con uno personalizado. Hemos proporcionado una plantilla dentro del archivo [`README-template.md`] (./ README-template.md) en este código de inicio.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-**⚠️ IMPORTANT ⚠️: With these premium challenges, please be sure not to upload the design files to GitHub when you're submitting to the platform and sharing it around. If you've created a brand new project, the easiest way to do that is to copy across the `.gitignore` provided in this starter project.**
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-**Have fun building!** 🚀
-# Planetc-fact-site
+La plantilla proporciona una guía sobre qué agregar. Un "README" personalizado le ayudará a explicar su proyecto y reflexionar sobre sus aprendizajes. No dude en editar nuestro tema.
