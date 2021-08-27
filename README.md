@@ -1,6 +1,6 @@
 # Frontend Mentor - Sitio de hechos de planetas
 
-! [Vista previa del diseño para el desafío de codificación del sitio de hechos de Planetas] (./preview.jpg)
+! [Design preview for the Planets fact site coding challenge] (./ preview.jpg)
 
 ## ¡Bienvenido! 👋
 
