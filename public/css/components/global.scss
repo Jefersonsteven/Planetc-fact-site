@@ -13,8 +13,8 @@ $color-6: #CD5120;
 $color-7: #1ec2a4;
 $color-8: #2d68f0;
 // Fonts
-$font-title: 'Open Sans', sans-serif;
-$font-text: 'Open Sans', sans-serif;
+$font-title: 'Antonio', sans-serif;
+$font-text: 'Spartan', sans-serif;
 
 html {
     font-size: 62.5%;
@@ -47,8 +47,45 @@ figure {
 
 }
 
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 8rem;
+    font-family: $font-title;
+    line-height: 104px;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: $font-title;
+    line-height: 52px;
+    letter-spacing: -1.5px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-family: $font-text;
+    line-height: 25px;
+    letter-spacing: 2.6px;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-family: $font-text;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}
+
 body {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-family: $font-text;
+    line-height: 25px;
+    font-weight: normal;
     background-color:  $color_dark;
     color: $color_light;
 }
