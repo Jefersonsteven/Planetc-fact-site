@@ -297,10 +297,11 @@ const overview = document.querySelector('.overview');
 const structure = document.querySelector('.structure');
 const surface = document.querySelector('.surface');
 
-overview.style.borderBottom = `4px solid ${colorBorder}`;
-
 let layerOpen = false;
 
+if (window.innerWidth < 768) {
+
+    overview.style.borderBottom = `4px solid ${colorBorder}`;
 
     overview.addEventListener('click', () => {
         if (!layerOpen) {
@@ -329,7 +330,7 @@ let layerOpen = false;
         }
     })
 
-
+}
 
 
 // Event click on the options change the main content
@@ -366,4 +367,10 @@ renderPlanetMain(optionUranus, 6, "./public/assets/planet-uranus.svg", "./public
 renderPlanetMain(optionNeptune, 7, "./public/assets/planet-neptune.svg", "./public/assets/geology-neptune.png", "./public/assets/planet-neptune-internal.svg", "overview");
 
 
-
+window.addEventListener('resize', () => {
+    if (window.innerWidth >= 768) {
+        console.log("Tablet");
+    } else if (window.innerWidth < 768) {
+        console.log("Mobile");
+    }
+})
