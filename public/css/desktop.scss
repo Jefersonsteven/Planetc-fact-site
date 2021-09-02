@@ -16,6 +16,7 @@
             & ul {
                 height: 100%;
                 & li {
+                    cursor: pointer;
                     display: flex;
                     align-items: flex-end;
                     & h3 {
@@ -106,4 +107,7 @@ body {
     top: 55%;
     width: 350px;
     height: 176px;
+    & div {
+        cursor: pointer;
+    }
 }

@@ -76,7 +76,7 @@ body {
 .app {
   width: 100%;
   height: 100%;
-  background-image: url(/public/assets/background-stars.svg);
+  background-image: url(./public/assets/background-stars.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -105,6 +105,7 @@ body {
   height: 100%;
 }
 .app .header .nav__menu ul li {
+  cursor: pointer;
   display: flex;
   align-items: flex-end;
 }
@@ -191,4 +192,7 @@ body {
   top: 55%;
   width: 350px;
   height: 176px;
+}
+.layers-controller div {
+  cursor: pointer;
 }
