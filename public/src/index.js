@@ -70,7 +70,7 @@ function mainContentRender (planet, imagen1, imagen2, imagen3, layers,) {
     mainContent =
     `
     <section class="main-content">
-            <figure main-content__image-planet>
+            <figure class="main-content__image-planet">
             <img class="img-overview" src="${imagen1}" alt="${data[planet].name}">
             <img class="img-structure" src="${imagen2}" alt="${data[planet].name}">
             <img class="img-surface" src="${imagen3}" alt="${data[planet].name}">
@@ -155,6 +155,7 @@ function mainContentRender (planet, imagen1, imagen2, imagen3, layers,) {
     const imgStructure = document.querySelector('.img-structure');
     const imgSurface = document.querySelector('.img-surface');
 
+if (innerWidth < 768) {
     function changeSizePlanet () {
 
         switch (planetX) {
@@ -233,6 +234,169 @@ function mainContentRender (planet, imagen1, imagen2, imagen3, layers,) {
         }
     }
     changeSizePlanet();
+}
+
+if (innerWidth >= 768 && innerWidth < 1024) {
+    function changeSizePlanet () {
+
+        switch (planetX) {
+            case 0:
+                imgOverview.style.width = '184px';
+                imgOverview.style.height = '184px';
+                imgStructure.style.width = '91px';
+                imgStructure.style.height = '111px';
+                imgStructure.style.top = '280px';
+                imgSurface.style.width = '184px';
+                imgSurface.style.height = '184px';
+                break;
+            case 1:
+                imgOverview.style.width = '253px';
+                imgOverview.style.height = '253px';
+                imgStructure.style.width = '91px';
+                imgStructure.style.height = '111px';
+                imgStructure.style.top = '310px';
+                imgSurface.style.width = '253px';
+                imgSurface.style.height = '253px';
+                break;
+            case 2:
+                imgOverview.style.width = '285px';
+                imgOverview.style.height = '285px';
+                imgStructure.style.width = '91px';
+                imgStructure.style.height = '111px';
+                imgStructure.style.top = '320px';
+                imgSurface.style.width = '285px';
+                imgSurface.style.height = '285px';
+                break;
+            case 3:
+                imgOverview.style.width = '213px';
+                imgOverview.style.height = '213px';
+                imgStructure.style.width = '91px';
+                imgStructure.style.height = '111px';
+                imgStructure.style.top = '300px';
+                imgSurface.style.width = '213px';
+                imgSurface.style.height = '213px';
+                break;
+            case 4:
+                imgOverview.style.width = '369px';
+                imgOverview.style.height = '369px';
+                imgStructure.style.width = '91px';
+                imgStructure.style.height = '111px';
+                imgStructure.style.top = '330px';
+                imgSurface.style.width = '369px';
+                imgSurface.style.height = '369px';
+                break;
+            case 5:
+                imgOverview.style.width = '422x';
+                imgOverview.style.height = '422px';
+                imgStructure.style.width = '91px';
+                imgStructure.style.height = '111px';
+                imgStructure.style.top = '310px';
+                imgSurface.style.width = '422px';
+                imgSurface.style.height = '422px';
+                break;
+            case 6:
+                imgOverview.style.width = '290px';
+                imgOverview.style.height = '290px';
+                imgStructure.style.width = '91px';
+                imgStructure.style.height = '111px';
+                imgStructure.style.top = '320px';
+                imgSurface.style.width = '290px';
+                imgSurface.style.height = '290px';
+                break;
+            case 7:
+                imgOverview.style.width = '285px';
+                imgOverview.style.height = '285px';
+                imgStructure.style.width = '91px';
+                imgStructure.style.height = '111px';
+                imgStructure.style.top = '320px';
+                imgSurface.style.width = '285px';
+                imgSurface.style.height = '285px';
+                break;
+        }
+    }
+    changeSizePlanet();
+}
+
+if (innerWidth >= 1024) {
+    function changeSizePlanet () {
+
+        switch (planetX) {
+            case 0:
+                imgOverview.style.width = '290px';
+                imgOverview.style.height = '290px';
+                imgStructure.style.width = '163px';
+                imgStructure.style.height = '199px';
+                imgStructure.style.top = '380px';
+                imgSurface.style.width = '290px';
+                imgSurface.style.height = '290px';
+                break;
+            case 1:
+                imgOverview.style.width = '400px';
+                imgOverview.style.height = '400px';
+                imgStructure.style.width = '163px';
+                imgStructure.style.height = '199px';
+                imgStructure.style.top = '410px';
+                imgSurface.style.width = '400px';
+                imgSurface.style.height = '400px';
+                break;
+            case 2:
+                imgOverview.style.width = '450px';
+                imgOverview.style.height = '450px';
+                imgStructure.style.width = '163px';
+                imgStructure.style.height = '199px';
+                imgStructure.style.top = '420px';
+                imgSurface.style.width = '450px';
+                imgSurface.style.height = '450px';
+                break;
+            case 3:
+                imgOverview.style.width = '336px';
+                imgOverview.style.height = '336px';
+                imgStructure.style.width = '163px';
+                imgStructure.style.height = '199px';
+                imgStructure.style.top = '400px';
+                imgSurface.style.width = '336px';
+                imgSurface.style.height = '336px';
+                break;
+            case 4:
+                imgOverview.style.width = '582px';
+                imgOverview.style.height = '582px';
+                imgStructure.style.width = '163px';
+                imgStructure.style.height = '199px';
+                imgStructure.style.top = '430px';
+                imgSurface.style.width = '582px';
+                imgSurface.style.height = '582px';
+                break;
+            case 5:
+                imgOverview.style.width = '582x';
+                imgOverview.style.height = '582px';
+                imgStructure.style.width = '163px';
+                imgStructure.style.height = '199px';
+                imgStructure.style.top = '410px';
+                imgSurface.style.width = '582px';
+                imgSurface.style.height = '582px';
+                break;
+            case 6:
+                imgOverview.style.width = '458px';
+                imgOverview.style.height = '458px';
+                imgStructure.style.width = '163px';
+                imgStructure.style.height = '199px';
+                imgStructure.style.top = '420px';
+                imgSurface.style.width = '458px';
+                imgSurface.style.height = '458px';
+                break;
+            case 7:
+                imgOverview.style.width = '450px';
+                imgOverview.style.height = '450px';
+                imgStructure.style.width = '163px';
+                imgStructure.style.height = '199px';
+                imgStructure.style.top = '420px';
+                imgSurface.style.width = '450px';
+                imgSurface.style.height = '450px';
+                break;
+        }
+    }
+    changeSizePlanet();
+}
 
     function changeDisplayPlanet() {
         switch (layer) {
@@ -262,13 +426,13 @@ const layers = document.querySelector('.layers-controller');
 const layersContent =
 `
     <div class="overview">
-        <p>01</p> <h4>overview</h4>
+        <div> <p>01</p> <h4>overview</h4> </div>
     </div>
     <div class="structure">
-        <p>02</p>  <div><h4>Internal</h4> <h4>Structure</h4></div>
+        <div> <p>02</p>  <div><h4>Internal</h4> <h4>Structure</h4></div> </div>
     </div>
     <div class="surface">
-        <p>03</p> <div><h4>Surface</h4> <h4>Geology</h4></div>
+        <div> <p>03</p> <div><h4>Surface</h4> <h4>Geology</h4></div> </div>
     </div>
 `
 layers.innerHTML = layersContent;
@@ -333,6 +497,39 @@ if (window.innerWidth < 768) {
 }
 
 
+if (window.innerWidth >= 768) {
+
+    overview.style.background = `${colorBorder}`
+
+    overview.addEventListener('click', () => {
+        if (!layerOpen) {
+            mainContentRender(planetX, image1, image2, image3, "overview");
+            overview.style.background = `${colorBorder}`
+            structure.style.background = 'none';
+            surface.style.background = 'none';
+        }
+    })
+
+    structure.addEventListener('click', () => {
+        if (!layerOpen) {
+            mainContentRender(planetX, image1, image2, image3, "structure");
+            overview.style.background = 'none';
+            structure.style.background = `${colorBorder}`
+            surface.style.background = 'none';
+        }
+    })
+
+    surface.addEventListener('click', () => {
+        if (!layerOpen) {
+            mainContentRender(planetX, image1, image2, image3, "geology");
+            overview.style.background = 'none';
+            structure.style.background = 'none';
+            surface.style.background = `${colorBorder}`
+        }
+    })
+
+}
+
 // Event click on the options change the main content
 
 const optionMercury = document.querySelector('.option-mercury');
@@ -344,33 +541,53 @@ const optionSaturn = document.querySelector('.option-saturn');
 const optionUranus = document.querySelector('.option-uranus');
 const optionNeptune = document.querySelector('.option-neptune');
 
-function renderPlanetMain(option, planet, imagen1, imagen2, imagen3, layers) {
-    option.addEventListener('click', () => {
-        if (menuOpen) {
-            mainContentRender(planet, imagen1, imagen2, imagen3, layers);
-            menu.style.right = '-100%';
-            menuOpen = false;
-            overview.style.borderBottom = `4px solid ${colorBorder}`;
-            structure.style.borderBottom = `none`;
-            surface.style.borderBottom = `none`;
-        }
-    })
+if (innerWidth < 768) {
+    function renderPlanetMainMobile(option, planet, imagen1, imagen2, imagen3, layers) {
+        option.addEventListener('click', () => {
+            if (menuOpen) {
+                mainContentRender(planet, imagen1, imagen2, imagen3, layers);
+                if(innerWidth < 768){ menu.style.right = '-100%';}
+                menuOpen = false;
+                overview.style.borderBottom = `4px solid ${colorBorder}`;
+                structure.style.borderBottom = `none`;
+                surface.style.borderBottom = `none`;
+            }
+        })
+    }
+
+    renderPlanetMainMobile(optionMercury, 0, "./public/assets/planet-mercury.svg", "./public/assets/geology-mercury.png", "./public/assets/planet-mercury-internal.svg", "overview");
+    renderPlanetMainMobile(optionVenus, 1, "./public/assets/planet-venus.svg", "./public/assets/geology-venus.png", "./public/assets/planet-venus-internal.svg", "overview");
+    renderPlanetMainMobile(optionEarth, 2, "./public/assets/planet-earth.svg", "./public/assets/geology-earth.png", "./public/assets/planet-earth-internal.svg", "overview");
+    renderPlanetMainMobile(optionMars, 3, "./public/assets/planet-mars.svg", "./public/assets/geology-mars.png", "./public/assets/planet-mars-internal.svg", "overview");
+    renderPlanetMainMobile(optionJupiter, 4, "./public/assets/planet-jupiter.svg", "./public/assets/geology-jupiter.png", "./public/assets/planet-jupiter-internal.svg", "overview");
+    renderPlanetMainMobile(optionSaturn, 5, "./public/assets/planet-saturn.svg", "./public/assets/geology-saturn.png", "./public/assets/planet-saturn-internal.svg", "overview");
+    renderPlanetMainMobile(optionUranus, 6, "./public/assets/planet-uranus.svg", "./public/assets/geology-uranus.png", "./public/assets/planet-uranus-internal.svg", "overview");
+    renderPlanetMainMobile(optionNeptune, 7, "./public/assets/planet-neptune.svg", "./public/assets/geology-neptune.png", "./public/assets/planet-neptune-internal.svg", "overview");
 }
 
-renderPlanetMain(optionMercury, 0, "./public/assets/planet-mercury.svg", "./public/assets/geology-mercury.png", "./public/assets/planet-mercury-internal.svg", "overview");
-renderPlanetMain(optionVenus, 1, "./public/assets/planet-venus.svg", "./public/assets/geology-venus.png", "./public/assets/planet-venus-internal.svg", "overview");
-renderPlanetMain(optionEarth, 2, "./public/assets/planet-earth.svg", "./public/assets/geology-earth.png", "./public/assets/planet-earth-internal.svg", "overview");
-renderPlanetMain(optionMars, 3, "./public/assets/planet-mars.svg", "./public/assets/geology-mars.png", "./public/assets/planet-mars-internal.svg", "overview");
-renderPlanetMain(optionJupiter, 4, "./public/assets/planet-jupiter.svg", "./public/assets/geology-jupiter.png", "./public/assets/planet-jupiter-internal.svg", "overview");
-renderPlanetMain(optionSaturn, 5, "./public/assets/planet-saturn.svg", "./public/assets/geology-saturn.png", "./public/assets/planet-saturn-internal.svg", "overview");
-renderPlanetMain(optionUranus, 6, "./public/assets/planet-uranus.svg", "./public/assets/geology-uranus.png", "./public/assets/planet-uranus-internal.svg", "overview");
-renderPlanetMain(optionNeptune, 7, "./public/assets/planet-neptune.svg", "./public/assets/geology-neptune.png", "./public/assets/planet-neptune-internal.svg", "overview");
+if (innerWidth >= 768) {
+    function renderPlanetMainTablet(option, planet, imagen1, imagen2, imagen3, layers) {
+        option.addEventListener('click', () => {
+            if (true) {
+                mainContentRender(planet, imagen1, imagen2, imagen3, layers);
+                overview.style.background = `${colorBorder}`
+                structure.style.background = 'none';
+                surface.style.background = 'none';
+            }
+        })
+    }
+
+    renderPlanetMainTablet(optionMercury, 0, "./public/assets/planet-mercury.svg", "./public/assets/geology-mercury.png", "./public/assets/planet-mercury-internal.svg", "overview");
+    renderPlanetMainTablet(optionVenus, 1, "./public/assets/planet-venus.svg", "./public/assets/geology-venus.png", "./public/assets/planet-venus-internal.svg", "overview");
+    renderPlanetMainTablet(optionEarth, 2, "./public/assets/planet-earth.svg", "./public/assets/geology-earth.png", "./public/assets/planet-earth-internal.svg", "overview");
+    renderPlanetMainTablet(optionMars, 3, "./public/assets/planet-mars.svg", "./public/assets/geology-mars.png", "./public/assets/planet-mars-internal.svg", "overview");
+    renderPlanetMainTablet(optionJupiter, 4, "./public/assets/planet-jupiter.svg", "./public/assets/geology-jupiter.png", "./public/assets/planet-jupiter-internal.svg", "overview");
+    renderPlanetMainTablet(optionSaturn, 5, "./public/assets/planet-saturn.svg", "./public/assets/geology-saturn.png", "./public/assets/planet-saturn-internal.svg", "overview");
+    renderPlanetMainTablet(optionUranus, 6, "./public/assets/planet-uranus.svg", "./public/assets/geology-uranus.png", "./public/assets/planet-uranus-internal.svg", "overview");
+    renderPlanetMainTablet(optionNeptune, 7, "./public/assets/planet-neptune.svg", "./public/assets/geology-neptune.png", "./public/assets/planet-neptune-internal.svg", "overview");
+}
 
 
 window.addEventListener('resize', () => {
-    if (window.innerWidth >= 768) {
-        console.log("Tablet");
-    } else if (window.innerWidth < 768) {
-        console.log("Mobile");
-    }
+    window.location.reload();
 })

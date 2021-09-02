@@ -3,6 +3,8 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
 }
 
 ul li {
@@ -88,6 +90,8 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
 }
 
 ul li {
@@ -186,6 +190,7 @@ body {
 }
 .header .nav__title {
   margin: 0;
+  font-size: 2.8rem;
   line-height: 37px;
 }
 .header .nav__menu {
@@ -348,6 +353,8 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
 }
 
 ul li {

@@ -1,0 +1,131 @@
+@import './components/global.scss';
+
+.header {
+    height: 160px;
+    .nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        & h1 {
+            text-align: center;
+            width: 100%;
+            margin: 30px 0px;
+        }
+        &__menu {
+            position: relative;
+            right: 0;
+            background-color: transparent;
+            width: 100%;
+            & ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+                padding: 0px 50px;
+                margin: 0;
+                & li {
+                    align-items: flex-start;
+                    border-bottom: none;
+                    height: 52px;
+                    & div {
+                        display: none;
+                    }
+                    & img {
+                        display: none;
+                    }
+                    & h3 {
+                        font-size: 1.1rem;
+                        margin: 0;
+                        width: 80px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        &__menu-icon {
+            position: absolute;
+            display: none;
+        }
+    }
+}
+
+.layers-controller {
+    position: absolute;
+    margin: 0;
+    // transform: translateY(390px);
+    top: 66%;
+    right: 4%;
+    display: flex;
+    flex-direction: column;
+    width: 281px;
+    height: 156px;
+    border: none;
+        background-color: transparent;
+    & div {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        border: 1px solid #e5e5e57a;
+        & div {
+            border: none;
+            & p {
+                display: inline-block;
+                font-size: 0.9rem;
+                margin: 0 20px;
+            }
+        }
+    }
+    & div:nth-child(2) {
+        & div {
+            & h4:nth-child(1) {
+                display: inline-block;
+                margin: 0;
+            }
+        }
+    }
+    & div:nth-child(3) {
+        & div {
+            & h4:nth-child(2) {
+                display: inline-block;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.main {
+    padding-top: 161px;
+    .main-content {
+        & figure {
+            height: 454px;
+        }
+        &__info {
+            display: flex;
+            padding-left: 40px;
+            & article {
+                width: 50%;
+                display: flex;
+                align-items: flex-start;
+                & p {
+                    text-align: left;
+                }
+            }
+        }
+        &__info-plus {
+            display: flex;
+            flex-direction: row;
+            width: 95%;
+            height: 157px;
+            margin: 0 auto;
+            & div {
+                width: 144px;
+                height: 58px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 20px 10px;
+            }
+        }
+    }
+}
