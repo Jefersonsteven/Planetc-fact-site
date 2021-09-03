@@ -567,22 +567,26 @@ if (innerWidth < 768) {
 
 if (innerWidth >= 768) {
     function renderPlanetMainTablet(option, planet, imagen1, imagen2, imagen3, layers) {
-        optionMercury.style.borderTop = `4px solid ${colorBorder}`;
+        if (innerWidth >= 1440){
+            optionMercury.style.borderTop = `4px solid ${colorBorder}`;
+        }
         option.addEventListener('click', () => {
             if (true) {
                 mainContentRender(planet, imagen1, imagen2, imagen3, layers);
                 overview.style.background = `${colorBorder}`
                 structure.style.background = 'none';
                 surface.style.background = 'none';
-                optionMercury.style.borderTop = `none`;
-                optionVenus.style.borderTop = `none`;
-                optionEarth.style.borderTop = `none`;
-                optionMars.style.borderTop = `none`;
-                optionJupiter.style.borderTop = `none`;
-                optionSaturn.style.borderTop = `none`;
-                optionUranus.style.borderTop = `none`;
-                optionNeptune.style.borderTop = `none`;
-                option.style.borderTop = `4px solid ${colorBorder}`;
+                if (innerWidth >= 1440){
+                    optionMercury.style.borderTop = `none`;
+                    optionVenus.style.borderTop = `none`;
+                    optionEarth.style.borderTop = `none`;
+                    optionMars.style.borderTop = `none`;
+                    optionJupiter.style.borderTop = `none`;
+                    optionSaturn.style.borderTop = `none`;
+                    optionUranus.style.borderTop = `none`;
+                    optionNeptune.style.borderTop = `none`;
+                    option.style.borderTop = `4px solid ${colorBorder}`;
+                }
             }
         })
     }
