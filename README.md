@@ -14,6 +14,6 @@ El usuario deberían poder:
 
 # Medidas del view
 
-375 x 667
-768 x 1024
+375 x 667 /
+768 x 1024 /
 1440 x 1024
